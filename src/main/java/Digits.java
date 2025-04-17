@@ -6,7 +6,6 @@ public class Digits {
   public Digits(int num) { /* to be implemented in part (a) */ 
     digitList = new ArrayList<Integer>();
     String n = String.valueOf(num);
-    println(n);
     
     int t;
     for(int i = 0; i < n.length(); i++) {
